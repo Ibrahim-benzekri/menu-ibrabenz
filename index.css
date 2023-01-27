@@ -1,0 +1,42 @@
+body{
+    background-color:#f0ffff;
+    text-align: center;
+}
+#title{
+    letter-spacing: 5px;
+}
+#line{
+    margin-top: -30px;
+    font-weight: 900;
+    font-size: 30px;
+    color: goldenrod
+}
+.btn{
+    background-color:#f0ffff;
+    border: 2px solid goldenrod;
+    border-radius: 7px;
+    color: goldenrod;
+}
+.btn:hover{
+    color:#f0ffff ;
+    background-color: goldenrod;
+}
+
+#menu{
+    margin-left: 450px;
+    margin-top: 50px;
+    width: fit-content;
+    height: fit-content;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.div1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+
